@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Cofetaria Gabriel" />
+    <meta name="author" content="Pasparan Gabriel-Costica" />
+    <title>Prajituri si Torturi
+    </title>
+    <link rel="stylesheet" type="text/css" href="style/main.css" media="screen">
+    <link rel="shortcut icon" href="style/favicon.png" type="image/x-icon" />
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <nav id="meniu">
+                <ul>
+                    <li><a href="index.html">Acasa</a></li>
+                    <li><a href="prajituri.html">Prajituri</a></li>
+                    <li><a href="mini_prajituri.html">Mini Prajituri</a></li>
+                    <li>
+                        <a href="aniversare.html">Torturi&#9662;</a>
+                        <ul>
+                            <li><a href="aniversare.html">Torturi aniversare</a></li>
+                            <li><a href="nunta.html">Torturi nunta</a></li>
+                            <li><a href="standard.html">Torturi standard</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="bar.html">Candy Bar</a></li>
+                    <li><a href="joc.html">Joc</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="prez">
+            <div class="anim">
+                <h1>Contact:</h1></div>
+            <form action="" method="GET" action="" id="forma">
+                <label>Nume :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="text" name="nume">
+                </label>
+                <br>
+                <label>Prenume :&nbsp;
+                    <input type="text" name="prenume">
+                </label>
+                <br>
+                <label>E-mail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="text" name="email">
+                </label>
+                <br>
+                <br>
+                <p>Parerea dumneavoastra despre site:</p>
+                <textarea class="comen"></textarea>
+                <br>
+                <br>
+                <label>Ce sectiune v-a placut cel mai mult?</label>
+                <select>
+                    <option value="Prajituri">Prajituri</option>
+                    <option value="Mini Prajituri">Mini Prajituri</option>
+                    <option value="Tort">Tort</option>
+                    <option value="Bar">Candy Bar</option>
+                    <option value="Joc">Joc</option>
+                </select>
+                <br>
+                <br>
+                <fieldset>
+                    <legend>Feedback site</legend>
+                    <p>Va place site-ul?</p>
+                    <label>
+                        <input type="radio" name="yes/no" value="da">DA </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="yes/no" value="nu">NU</label>
+                    <br>
+                    <br>
+                    <label>Pe o scara de la 1 la 10 cum evaluati site-ul?
+                        <input id="scara" type="range" min=0 max=10 step=1 value=5>10</label>
+                </fieldset>
+                <br>
+                <input type="checkbox" name="chek" value="required">Va doriti sa primiti noutatile prin e-mail?
+                <br>
+                <button type="reset"> Reset </button>
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://www.facebook.com/profile.php?id=100010283088465" target="_blank"><img src="img/fb.png" id="face"></a>
+        <address><a href="mailto:pasparangabriel@yahoo.com">Trimite un email</a></address>
+        <p id="ft">Copyright &copy; Gabriel-Costica
+            <br>
+            <small>Pozele au fost preluate de pe diferite situri sociale!</small>
+            <br>
+        </p>
+    </footer>
+</body>
+
+</html>

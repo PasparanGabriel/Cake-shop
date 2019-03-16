@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<imagini>
+
+<imagine clasa="personaj">		
+	<src>img.png</src>
+	<width>30</width>
+	<height>30</height>
+</imagine>
+	
+<imagine class="tinta">
+    <src>prajitura.png</src>
+	<width>20</width>
+	<height>23</height>
+</imagine>
+	
+</imagini>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

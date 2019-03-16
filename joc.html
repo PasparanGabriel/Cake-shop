@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <script src="joc.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.4.js"></script>
+    <meta charset="utf-8" />
+    <meta name="description" content="Cofetaria Gabriel" />
+    <meta name="author" content="Pasparan Gabriel-Costica" />
+    <title>Prajituri si Torturi
+    </title>
+    <link rel="stylesheet" type="text/css" href="style/main.css" media="screen">
+    <link rel="shortcut icon" href="style/favicon.png" type="image/x-icon" />
+</head>
+
+<body onkeydown="handler(event);">
+    <header>
+        <div class="menu">
+            <nav id="meniu">
+                <ul>
+                    <li><a href="index.html">Acasa</a></li>
+                    <li><a href="prajituri.html">Prajituri</a></li>
+                    <li><a href="mini_prajituri.html">Mini Prajituri</a></li>
+                    <li>
+                        <a href="aniversare.html">Torturi&#9662;</a>
+                        <ul>
+                            <li><a href="aniversare.html">Torturi aniversare</a></li>
+                            <li><a href="nunta.html">Torturi nunta</a></li>
+                            <li><a href="standard.html">Torturi standard</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="bar.html">Candy Bar</a></li>
+                    <li><a href="joc.html">Joc</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="prez">
+            <h1 id="joc">Joc</h1>
+            <div class="can">
+                <canvas width="500" height="300" id="canv">
+                </canvas>
+            </div>
+            <p id="scor"></p>
+            <button onclick="start_joc()">Start joc</button>
+            <button onclick="stop_joc()">Stop joc</button>
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://www.facebook.com/profile.php?id=100010283088465" target="_blank"><img src="img/fb.png" id="face"></a>
+        <address><a href="mailto:pasparangabriel@yahoo.com">Trimite un email</a></address>
+        <p id="ft">Copyright &copy; Gabriel-Costica
+            <br>
+            <small>Pozele au fost preluate de pe diferite situri sociale!</small>
+            <br>
+        </p>
+    </footer>
+</body>
+
+</html>
